@@ -140,6 +140,6 @@ combination is reproducible.
 
 - **Rime** (`rime.ai`) -- text-to-speech, required.
 - **Groq** (`console.groq.com`) -- speech-to-text (`whisper-large-v3-turbo`)
-  and reasoning (`llama-3.3-70b-versatile`); free tier, no card required.
+  and reasoning (`openai/gpt-oss-20b`); free tier, no card required.
 - **LiveKit Cloud** -- WebRTC transport and the Agents Playground / Console demo UI.
 - **Silero VAD** -- runs locally, no external service/API key required.
