@@ -31,7 +31,7 @@ procedure, and results.
     │                                                    ▲
     ▼                                                    │
 ┌─────────────┐   ┌───────────┐   ┌────────────┐   ┌──────────┐
-│ Silero VAD  │──▶│ Groq-hosted Whisper STT │──▶│ Groq LLM │──▶│ Rime TTS │
+│ Silero VAD  │──▶│ Groq-hosted Whisper STT │──▶  │ Groq LLM │──▶│ Rime TTS │
 └─────────────┘   └───────────┘   └─────┬──────┘   └──────────┘
                                           │
                                           ▼
@@ -40,7 +40,7 @@ procedure, and results.
                                  │  (agent.py)        │
                                  │  function_tools:   │
                                  │   advance_to_next_ │
-                                 │   step,             │
+                                 │   step,            │
                                  │   lookup_ingredient│
                                  │   _info            │
                                  └─────────┬──────────┘
@@ -48,11 +48,11 @@ procedure, and results.
                                            │ with a turn id
                                            ▼
                                  ┌────────────────────┐
-                                 │ RecipeState         │
-                                 │ (recipe_state.py)   │
-                                 │ - turn fencing       │
-                                 │ - step progress       │
-                                 │ - audit trail          │
+                                 │ RecipeState        │
+                                 │ (recipe_state.py)  │
+                                 │ - turn fencing     │
+                                 │ - step progress    │
+                                 │ - audit trail      │
                                  └────────────────────┘
 ```
 
